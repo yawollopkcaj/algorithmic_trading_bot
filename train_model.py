@@ -5,7 +5,7 @@ from sklearn.linear_model import Ridge
 from sklearn.metrics import mean_squared_error
 import matplotlib.pyplot as plt
 
-WINDOW_SIZE = 10
+WINDOW_SIZE = 1
 
 df = pd.read_csv("data/pepe_merged_data.csv")
 df = df.dropna()
