@@ -42,7 +42,7 @@ Sentiment Analyzer                 Historical Price CSV
 - Features: Log-transformed price windows + sentiment
 - RMSE: (insert latest value)
 - Last test: 28-05-2025
-- Plot: ![Prediction Graph](assets/model_performance.png)
+- Plot: ![Prediction Graph](./assets%20/model_performance.png)
 
 ---
 
@@ -54,7 +54,7 @@ Sentiment Analyzer                 Historical Price CSV
 Already using sentiment and price trends, Add:
 - Fourier/Seasonality Decomposition: Extract cyclical components from price series.
 - Regime Detection: Use HMMs or clustering to detect market states.
-    - ![Interresting resource](https://medium.com/@tballz/regime-detection-and-prediction-in-financial-markets-lesson-1-simple-tutorial-42ee5bf18d61)
+    - [Interresting resource](https://medium.com/@tballz/regime-detection-and-prediction-in-financial-markets-lesson-1-simple-tutorial-42ee5bf18d61)
 - Feature Engineering: 
     - Momentum, RSI, MACD.
     - Sentiment momentum (rate of sentiment change).

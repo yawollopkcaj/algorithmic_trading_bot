@@ -23,7 +23,7 @@ Otherwise: **HOLD**.
 - `backtest.py`: Backtesting with slippage and transaction costs
 
 ## 📚 Full Documentation
-See detailed architecture, research plans, and improvements on the [GitHub Pages site](https://yawollopkcaj.github.io/price-predictor/docs/index.md)
+See detailed architecture, research plans, and improvements on the [Detailed Documentation](./docs/index.md))
 
 ## ⚠️ Disclaimer
 This is a research project only. **Not financial advice**!
