@@ -40,7 +40,7 @@ Sentiment Analyzer                 Historical Price CSV
 
 - Model: `Ridge Regression`
 - Features: Log-transformed price windows + sentiment
-- RMSE: (insert your latest value)
+- RMSE: (insert latest value)
 - Last test: 28-05-2025
 - Plot: ![Prediction Graph](assets/model_performance.png)
 

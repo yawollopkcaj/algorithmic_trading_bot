@@ -26,4 +26,4 @@ Otherwise: **HOLD**.
 See detailed architecture, research plans, and improvements on the [GitHub Pages site](https://yawollopkcaj.github.io/price-predictor/docs/index.md)
 
 ## ⚠️ Disclaimer
-This is a research project only. **Not financial advice!**
+This is a research project only. **Not financial advice**!
