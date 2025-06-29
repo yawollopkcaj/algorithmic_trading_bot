@@ -11,7 +11,7 @@ This bot collects sentiment signals from crypto subreddits and combines them wit
 
 ---
 
-## 🧱 Architecture Overview
+## 🧱 Current Architecture Overview
 
 ```
 Reddit Posts+Comments               Price Data (API)           
@@ -47,6 +47,44 @@ Sentiment Analyzer                 Historical Price CSV
 ---
 
 ## 🔍 Research & Improvements
+
+### Ideal Archetecture (What You Need for a Cracked Bot):
+
+1. Signal Generation (Alpha):
+Already using sentiment and price trends, Add:
+- Fourier/Seasonality Decomposition: Extract cyclical components from price series.
+- Regime Detection: Use HMMs or clustering to detect market states.
+    - ![Interresting resource](https://medium.com/@tballz/regime-detection-and-prediction-in-financial-markets-lesson-1-simple-tutorial-42ee5bf18d61)
+- Feature Engineering: 
+    - Momentum, RSI, MACD.
+    - Sentiment momentum (rate of sentiment change).
+    - Volatility, drawdowns, unusual volume spikes.
+
+2. Volatility Modeling:
+For risk-aware strategies and sizing.
+- GARCH models (e.g., arch library): Predict volatility
+- Neural Networks:
+    - LSTM for volatility forcasting.
+    - Or simple feedforward networks using lagged volatility, volume, sentiment as input data.
+
+3. Position Sizing / Portfolio Optimization:
+Add:
+- Kelly Criterion: Optimal fractional betting size.
+- Mean-Varience Optimization (Markowitz).
+- Convex optimization with constraings (e.g., maximum exposure, minimum cash).
+- Risk-parity weighting.
+
+4. Backtesting Engine:
+Already using `bt`, also explore:
+- `backtrader` for better flexability.
+- `quantconnect` (cloud).
+Add features like: 
+- Slippage modeling.
+- Market impace (advanced).
+- Multi-asset testing.
+
+5. Execution Engine (Optional for now?):
+If you want to simulate real trading. IDK how this is different for backtest - will look into it later.
 
 ### ✅ Done:
 - Multi-subreddit sentiment scraping
