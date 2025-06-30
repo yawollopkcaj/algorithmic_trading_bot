@@ -1,18 +1,13 @@
-# 🧠 Meme Coin Price Predictor
+# 🧠 Algorithmic Trading Bot (Road to Quant)
 
-A machine learning-based crypto trading bot that predicts meme coin price movements using Reddit sentiment and historical price data.
+A modular, event-driven trading system.
 
-## 🚀 Features
+## 🚀 Current Features
 - Collects Reddit post + comment sentiment from multiple crypto subreddits
 - Combines with historical price data for feature generation
 - Ridge regression model predicts log-transformed price
 - Generates Buy / Sell / Hold signals
 - Backtests the strategy using realistic trading costs
-
-## 📊 Signal Logic
-If the model predicts the price will increase compared to current value: **BUY**.  
-If it predicts a decrease: **SELL**.  
-Otherwise: **HOLD**.
 
 ## 📁 Key Files
 - `reddit_sentiment_scraper.py`: Reddit sentiment extractor
@@ -22,8 +17,11 @@ Otherwise: **HOLD**.
 - `signal_generator.py`: Signal labeling
 - `backtest.py`: Backtesting with slippage and transaction costs
 
-## 📚 Full Documentation
-See detailed architecture, research plans, and improvements on the [Detailed Documentation](./docs/index.md))
+## 📚 Quick Links
+
+- See detailed archetecture plans, research, and improvements: [Detailed Documentation](./docs/index.md))
+- See detailed my personal notes and thoughts throughout the project: [Logbook](./docs/logbook.md))
+- See detailed roadmaps and task tracking details: [Project Management Tracking](./docs/pm.md))
 
 ## ⚠️ Disclaimer
-This is a research project only. **Not financial advice**!
+This project is purely for research purposes and is **not financial advice**!
