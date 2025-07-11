@@ -1,4 +1,4 @@
-# 🧠 Algorithmic Trading Bot (Road to Quant)
+# 🧠 Algorithmic Trading Bot
 
 A modular, event-driven trading system.
 
